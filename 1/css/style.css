@@ -1,0 +1,39 @@
+#T1{
+    height: 100%;
+    width: 100%;
+}
+#T2{
+    height: 100%;
+    width: 100%;
+}
+#T3{
+    height: 100%;
+    width: 100%;
+}
+li{
+    display: inline-block;
+}
+li{
+    margin-left: 50px;
+}
+ul{
+    margin-left: 450px;
+}
+body{
+    background: linear-gradient(500deg, #4B0000, #800000, #FF0000, #BF0000, #E60000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100%;
+    box-sizing: border-box;
+}
+#text{
+    width:350px;
+    max-width:350px;
+    height:200px;
+    max-height:200px;
+}
+#ec{
+    font-size: 50px;
+    display: inline-block;
+
+}

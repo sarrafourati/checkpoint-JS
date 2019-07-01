@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+        <ul id="ec">
+                <li><a href="index.html">home</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="courses.html">courses</a></li>
+            </ul>
+      <center>
+          <h1>COURSES</h1><br>
+          <form>
+          <h2>Feedback</h2><br>
+          <button onclick="bold()">B</button>
+          <button onclick="italic()">I</button>
+          <button onclick="underline()">underline</button>
+          <select onchange="px()" id="size">
+              <option >20px</option>
+              <option >30px</option>
+              <option >40px</option>
+              </select>
+              <select onchange="pol()" id="police">
+              <option>Arial</option>
+              <option>Times New Roman</option>
+              <option>Geneva</option>
+            </select><br>
+            <br>
+            <br>
+              <textarea id="text" cols="30" rows="5"></textarea>
+        </form>
+      </center>
+      
+</body>
+<script src="js/main.js"></script>
+</html>
